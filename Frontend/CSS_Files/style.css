@@ -1,39 +1,15 @@
-#main-navbar {
+
+.main-navbar {
   text-align: right;
   font: 2em;
   background: #C3D0D9;
   margin-left: 20%;
 }
-
-#main-navbar ul {
-  margin: 0;
-  padding: 0;
+.nav-div {
+  
 }
-
-#main-navbar li {
-  display: inline-block;
-  padding: 20px 20px;
-}
-
-#main-navbar li a {
-  text-decoration: none;
-  color: #222;
-}
-
-#main-navbar li a:hover {
-  padding-bottom: 3px;
-  color: grey;
-}
-#text_footer{
-  color: grey;
-  font-size: 10px;
-}
-
-.sidebar{
-  background-color: #DFE7ED;
-  margin-right: 96%;
-  margin-top:-75px;
-  padding: 5px;
+.searchbar-div{
+  /* align-content: left */
 }
 .fa-comments{
   color: #339cff;
@@ -48,31 +24,41 @@
   color: white;
 }
 
+.sidebar{
+  background-color: #DFE7ED;
+  margin-right: 96%;
+  margin-top:-75px;
+  padding: 5px;
+}
 .fa-home{
+  cursor: pointer;
   color: #4A5D6B
 }
 .fa-tasks{
+  cursor: pointer;
   color: #4A5D6B
 }
 .fa-sticky-note{
+  cursor: pointer;
   color: #4A5D6B
 }
 .fa-star{
+  cursor: pointer;
   color: #4A5D6B
 }
 .fa-envelope{
+  cursor: pointer;
   color: #4A5D6B
 }
 .fa-trophy{
+  cursor: pointer;
   color: #4A5D6B
 }
 .fa-male{
+  cursor: pointer;
   color: #4A5D6B
 }
 
-.fa-home:hover{
-  color: pink;
-}
 .fa-github{
   color: #4A5D6B;
 }
@@ -93,6 +79,11 @@
   padding: 10px 10px 0px 10px;
   /* margin: 10px; */
 }
+.text_footer{
+  color: grey;
+  font-size: 10px;
+}
+
 body {
   box-sizing:border-box;
   margin:0;
